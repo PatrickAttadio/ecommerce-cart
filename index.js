@@ -1,4 +1,4 @@
-import { add3Product, getAmount, getQuantity, deleteCart1, deleteCart2, deleteCart3 } from "./cart/cart.js";
+import { add3Product, getAmount, getQuantity, deleteCart1 } from "./cart/cart.js";
 /**
  * 1) Permettere di inserire nel carrello dei prodotti. "Add to cart"
  * 2) Aggiungiamo 3 prodotti nel carrello 
