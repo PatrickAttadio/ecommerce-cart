@@ -8,7 +8,7 @@ const callbackPerSetTimeout = () => {
 // Se va a buon fine chiama callbackPerSetTimeout
 setTimeout(callbackPerSetTimeout, 15000); // setTimeout è una funzione asincrona
 
-setTimeout (
+setTimeout(
       () => {
             setTimeout(() => {
                   console.log('First setTimeout'); // 4) --> 5000+2000
@@ -16,5 +16,4 @@ setTimeout (
             console.log('Second setTimeout'); // 3) --> 5000
       }, 5000
 );
-
 console.log('Finishing up'); // 2)
